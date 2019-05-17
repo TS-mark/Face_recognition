@@ -38,7 +38,7 @@ error_msg | 错误信息
 user_info | 注册人脸库时的用户信息
 result | 人脸检测相关信息
 
-#####result返回值如下：
+##### result返回值如下：
 key | value
 - | -
 face_num | 检测到图片中人脸的数量
