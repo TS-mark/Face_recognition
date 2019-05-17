@@ -1,0 +1,46 @@
+package com.example.demo.Entity;
+
+public class FaceSea {
+private boolean face;
+private boolean exist;
+private String group_id;
+private String user_id;
+private String user_info;
+private String score;//指相似度
+public String getScore() {
+	return score;
+}
+public void setScore(String score) {
+	this.score = score;
+}
+public boolean isFace() {
+	return face;
+}
+public void setFace(boolean face) {
+	this.face = face;
+}
+public boolean isExist() {
+	return exist;
+}
+public void setExist(boolean exist) {
+	this.exist = exist;
+}
+public String getGroup_id() {
+	return group_id;
+}
+public void setGroup_id(String group_id) {
+	this.group_id = group_id;
+}
+public String getUser_id() {
+	return user_id;
+}
+public void setUser_id(String user_id) {
+	this.user_id = user_id;
+}
+public String getUser_info() {
+	return user_info;
+}
+public void setUser_info(String user_info) {
+	this.user_info = user_info;
+}
+}
