@@ -12,13 +12,13 @@ key|value
 -|-
 path|传入的图片Url地址，此地址为网络地址
 ##### 返回值：
-key | value
-- | -
-group_id | 人脸库组名（程序中默认值为TS-Mark）
-user_id | 人脸库中用户名
-user_info | 注册人脸库时的用户信息
-score | 人脸匹配得分值（分值越高代表人脸相似度越高)
-warn | 警告（当score低于50时会出现提示，否则缺省）
+key|value
+-|-
+group_id|人脸库组名（程序中默认值为TS-Mark）
+user_id|人脸库中用户名
+user_info|注册人脸库时的用户信息
+score|人脸匹配得分值（分值越高代表人脸相似度越高)
+warn|警告（当score低于50时会出现提示，否则缺省）
 ###### 特殊情况，当人脸库中没有完全匹配到用户或者存在其他图片情况时的返回值为：*未匹配到人物，错误信息：error_msg*
 
 -----
@@ -27,20 +27,20 @@ warn | 警告（当score低于50时会出现提示，否则缺省）
 #### 人脸检测的传入传出地址为服务器地址/Face/FaceDet
 例如本地配置服务器，服务器地址为localhost:8080/Face/FaceDet
 ##### 请求输入参数如下：   
-key | value
-- | -
-path | 传入的图片Url地址，此地址为网络地址
+key|value
+-|-
+path|传入的图片Url地址，此地址为网络地址
 ##### 返回值：
-key | value
-- | -
-error_code | 错误编码（相关错误信息详见[本链接](https://ai.baidu.com/docs#/Face-ErrorCode-V3/top))
-error_msg | 错误信息
-user_info | 注册人脸库时的用户信息
-result | 人脸检测相关信息
+key|value
+-|-
+error_code|错误编码（相关错误信息详见[本链接](https://ai.baidu.com/docs#/Face-ErrorCode-V3/top))
+error_msg|错误信息
+user_info|注册人脸库时的用户信息
+result|人脸检测相关信息
 
 ##### result返回值如下：
-key | value
-- | -
-face_num | 检测到图片中人脸的数量
-face_list | 人脸信息列表
+key|value
+-|-
+face_num|检测到图片中人脸的数量
+face_list|人脸信息列表
 #####人脸信息列表以及其他特殊参数参见[百度Ai人脸检测文档](https://ai.baidu.com/docs#/Face-Detect-V3/top)
