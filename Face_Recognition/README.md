@@ -8,9 +8,9 @@
 #### 人脸查找的传入传出地址为服务器地址/Face/FaceSear
 例如本地配置服务器，服务器地址为localhost:8080/Face/FaceSear
 ##### 请求输入参数如下：   
-key | value
-- | -
-path | 传入的图片Url地址，此地址为网络地址
+key|value
+-|-
+path|传入的图片Url地址，此地址为网络地址
 ##### 返回值：
 key | value
 - | -
