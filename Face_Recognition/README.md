@@ -43,4 +43,5 @@ key|value
 -|-
 face_num|检测到图片中人脸的数量
 face_list|人脸信息列表
-#####人脸信息列表以及其他特殊参数参见[百度Ai人脸检测文档](https://ai.baidu.com/docs#/Face-Detect-V3/top)
+
+##### 人脸信息列表以及其他特殊参数参见[百度Ai人脸检测文档](https://ai.baidu.com/docs#/Face-Detect-V3/top)
